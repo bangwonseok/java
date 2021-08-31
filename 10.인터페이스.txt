@@ -1,3 +1,4 @@
+  
 1. 인터페이스란?
 P314
 모니터 - 액정(LCD, LED) - (인치수, LCD, LED, 밝기)
@@ -73,3 +74,62 @@ AgentGetCall -> Scheduler 인터페이스
 	-> sendCallToAgent() 
 	
 SchedulerTest -> 'A' -> 호출 
+
+
+인터페이스 상수
+-> 정적 변수
+-> public static final 
+
+디폴트 메서드와 정적메서드
+
+디폴트 메서드
+default 예약어
+-> 인터페이스를 구현한 클래스의 인스턴스 생성 후 사용 가능
+
+정적 메서드
+-> 인스턴스 생성과 상관 없이 사용 가능한 메서드
+	
+private 메서드 - 인터페이스 내부에서만 접근이 가능 
+
+P328 - 디폴트 메서드
+ -> default -> 인터페이스를 구현한 클래스의 인스턴스에서 사용할 메서드
+
+
+디폴트 메서드 재정의하기
+
+P331 - private 메서드
+
+P333 - 인터페이스 활용하기
+
+인터페이스 - 장치 
+모니터 - 디스플레이
+	     - 메인보드
+		 - 파워서플라이
+		 - IOPort - DIV, RGB, HDMI, Display port, USB-C
+	
+인터페이스는 여러개를 함께 구현
+implements(구현) 인터페이스, 인터페이스
+
+339
+
+MyClass mClass = new MyClass();
+
+X xClass = mClass; -> x();
+Y yClass = mClass; -> y();
+
+인터페이스 구현과 클래스 상속 함께 쓰기
+
+
+Queue
+Stack
+
+345
+Q1. implements
+Q2. 추상 클래스
+Q3. 상수(static 상수)
+Q4. 다형성
+Q5. 디폴트 메서드, 정적 메서드, private 메서드
+Q6. 구현 가능(예)
+
+P314~347
+정독 -> 예제
